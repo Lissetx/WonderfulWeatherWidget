@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Bebas+Neue&display=swap" rel="stylesheet">
+        <link href='style.css' rel='stylesheet' />
+        <audio src="GalimatiasOceanFloorKisses.mp3" id="myAudio"></audio>   
+    </head>
+    <body id='body'>
+        <header>
+            <h1 id="forecastpage">5 Day Forecast</h1>
+            <nav>
+                <ul>
+                    <li><a href='index.html'>Home</a></li>
+                    <li><a href='page1.html'>5 Day Forecast</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div  hidden id='today'></div>
+        <div id='forecast'></div>
+
+        <section id='buttonSection'>
+            <div id='content'>Enter a City (Format: City, St)</div>
+            <input id='textbox' 
+            placeholder='City, ST'/>
+            <div id='submit' class='btn'>Submit</div>
+        </section>
+        <div hidden id='extraInfo'></div>
+        <section hidden id='starryNight'><div >Enjoy the stars!</div></section>
+        
+        <script src='script3.js'></script>
+    </body>
+</html>
